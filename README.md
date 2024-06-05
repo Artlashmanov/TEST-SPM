@@ -5,7 +5,7 @@
 2. Перейдите в каталог, где вы хотите сохранить проект.
 3. Клонируйте репозиторий:
     ```
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone https://github.com/Artlashmanov/TEST-SPM.git
     ```
 4. Перейдите в каталог проекта:
     ```
