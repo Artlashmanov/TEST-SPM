@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #86cc16, #681717);
+}
+
+.App header {
+  background: linear-gradient(to right, #6e6e70, #a9a6ad);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.vertical-nav {
+  width: 200px;
+  background: linear-gradient(to bottom, #6e6e70, #a9a6ad);
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.vertical-nav a {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.vertical-nav a:hover {
+  background-color: #2fabbb;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 100%;
+  background-color: #c4c4c4;
+  padding: 20px;
+}
+
+.order-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-button {
+  background-color: #7c46a8;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.order-button:hover {
+  background-color: #388E3C;
+}
+
+.action-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.action-button:hover {
+  background-color: #005f6b;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
